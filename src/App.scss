@@ -1,0 +1,514 @@
+.data-container {
+  background: #fafbfd;
+  padding: 15px;
+  width: 100%;
+
+  .inner-data-container {
+    background: white;
+    padding-top: 15px;
+    padding-left: 15px;
+
+    .css-1ujnqem-MuiTabs-root {
+      .Mui-selected {
+        color: #1c96f2;
+      }
+
+      button {
+        ////font-family: "Lato";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+      }
+    }
+
+    .table-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 60px;
+      border-bottom: 1px solid #e4e4e4;
+      padding: 10px;
+
+      div:first-child {
+        margin-left: 9px;
+      }
+
+      .table-header-btn {
+        .table-btn1 {
+          .MuiButton-root {
+            box-sizing: border-box;
+            height: 32px;
+            border-radius: 4px;
+            background-color: #1c96f2;
+            color: white;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 17px;
+            margin-right: 10px;
+          }
+        }
+
+        .table-btn2 {
+          .MuiButton-root {
+            box-sizing: border-box;
+            height: 32px;
+            border-radius: 4px;
+            color: #767c87;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 17px;
+            margin-right: 10px;
+            border: 1px solid #e4e4e4;
+          }
+        }
+
+        .table-btn3 {
+          .MuiButton-root {
+            box-sizing: border-box;
+            height: 32px;
+            border-radius: 4px;
+            color: #767c87;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 17px;
+            margin-right: 10px;
+            border: 1px solid #e4e4e4;
+          }
+        }
+      }
+    }
+
+    .data-card-container {
+      box-sizing: border-box;
+      height: 92px;
+      left: 0px;
+      top: 72px;
+      background: #fafbfd;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid #e4e4e4;
+
+      .data-card-inner-container {
+        display: flex;
+        width: 50%;
+
+        .data-car-inner-card {
+          display: flex;
+          flex-direction: column;
+          margin-right: 20px;
+
+          .data-card-main-text {
+            ////font-family: "Lato";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+            color: #767c87;
+          }
+
+          .data-card-secondary-text {
+            ////font-family: "Lato";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 19px;
+            margin-top: 10px;
+            color: #4f535a;
+          }
+        }
+      }
+
+      .card-btn-container {
+        display: flex;
+        align-items: center;
+
+        .MuiButton-root {
+          box-sizing: border-box;
+          height: 32px;
+          border-radius: 4px;
+          background-color: #1c96f2;
+          color: white;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 14px;
+          line-height: 17px;
+          margin-right: 20px;
+          ////font-family: "Lato";
+        }
+      }
+    }
+
+    .css-13xfq8m-MuiTabPanel-root {
+      padding: 0px !important;
+    }
+
+    .table-btn {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 60px;
+      border-bottom: 1px solid #e3e7ee;
+
+      .MuiButton-root {
+        box-sizing: border-box;
+        height: 32px;
+        border: 1px solid #e4e4e4;
+        border-radius: 4px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
+        color: #767c87;
+        margin-right: 15px;
+      }
+
+      .table-right-btn {
+        select {
+          box-sizing: border-box;
+          height: 32px;
+          border: 1px solid #e4e4e4;
+          border-radius: 4px;
+          margin-right: 15px;
+          width: 158px;
+
+          option {
+            ////font-family: "Lato";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 17px;
+            color: #767c87;
+          }
+        }
+      }
+
+      .table-left-btn {
+        display: flex;
+        align-items: center;
+      }
+    }
+
+    .css-1h9z7r5-MuiButtonBase-root-MuiTab-root .MuiButtonBase-root {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 19px;
+
+      color: #1c96f2;
+    }
+  }
+}
+
+.sidenav-container {
+  box-sizing: border-box;
+  width: 260px;
+  background: #203e7a;
+  height: 100%;
+  -webkit-transition: all 1s linear;
+  -moz-transition: all 1s linear;
+  -ms-transition: all 1s linear;
+  -o-transition: all 1s linear;
+  transition: all 1s linear;
+
+  .back-btn {
+    box-sizing: border-box;
+    width: 260px;
+    height: 80px;
+    background: #203e7a;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+    //padding-top: 28px;
+    padding-left: 18px;
+    display: flex;
+    align-items: center;
+  }
+
+  .MuiListItem-button {
+    color: white;
+    padding: 16px 12px;
+  }
+
+  .css-10hburv-MuiTypography-root {
+    color: #607db9;
+  }
+
+  .collapse-logo {
+    position: fixed;
+    bottom: 0;
+    width: 60px;
+    background-color: #203e7a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid rgba(96, 125, 185, 0.4);
+    padding: 18px 0;
+    max-height: 80px;
+  }
+}
+
+.main-container {
+  display: flex;
+
+  .head-grid-container {
+    width: 100%;
+  }
+}
+
+.navbar {
+  overflow: hidden;
+  left: 0;
+  width: 100%;
+}
+
+.sidenav {
+  height: 100vh;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  -webkit-transition: all 1s linear;
+  -moz-transition: all 1s linear;
+  -ms-transition: all 1s linear;
+  -o-transition: all 1s linear;
+  transition: all 1s linear;
+}
+
+.main {
+  margin-left: 260px;
+}
+
+.pop-container {
+  .pop-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 20px;
+
+    .create-new {
+      ////font-family: "Lato";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 19px;
+      color: #4f535a;
+    }
+  }
+
+  .pop-form {
+    form {
+      height: 150px;
+      display: flex;
+      align-items: center;
+      border-bottom: 1px solid #e4e4e4;
+      width: 100%;
+
+      .form-control {
+        display: flex;
+        /* align-items: center; */
+        flex-direction: column;
+        /* align-items: normal; */
+        width: 100%;
+
+        label {
+          ////font-family: "Lato";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 140%;
+          color: #767c87;
+          padding: 10px;
+        }
+
+        input {
+          border: 0px;
+          height: 35px;
+          width: 80%;
+          border: 1px solid #e4e4e4;
+          padding-left: 10px;
+          outline: 0px;
+        }
+
+        p {
+          font-size: 16px;
+          color: red;
+          padding-left: 10px;
+          ////font-family: "Lato";
+        }
+      }
+    }
+  }
+
+  .pop-footer {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20px;
+
+    button {
+      ////font-family: "Lato";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 17px;
+      color: #4f535a;
+      padding: 10px;
+      background: white;
+      border: 1px solid #e4e4e4;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+  }
+}
+
+.collapse {
+  .css-10hburv-MuiTypography-root {
+    font-size: 13px;
+    font-weight: 500;
+  }
+}
+
+.collapse-sidenav {
+  .css-cveggr-MuiListItemIcon-root {
+    min-width: 0px !important;
+  }
+}
+
+.sidenav {
+  .css-10hburv-MuiTypography-root {
+    ////font-family: "Lato";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #607db9;
+  }
+
+  .side-menu {
+    // margin-top: 51px;
+  }
+
+  .inner-side-menu {
+    //border-bottom: 1px solid rgba(96, 125, 185, 0.4);
+    //margin-right: 18px;
+    //padding-bottom: 20px;
+    height: 100%;
+  }
+
+  .collapse-logo {
+    position: fixed;
+    bottom: 0;
+    width: 60px;
+    background-color: #203e7a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid rgba(96, 125, 185, 0.4);
+    padding: 18px 0;
+    max-height: 80px;
+  }
+
+  .logo {
+    position: fixed;
+    bottom: 0;
+    width: 260px;
+    background-color: #203e7a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid rgba(96, 125, 185, 0.4);
+    padding: 11px 0;
+    max-height: 80px;
+  }
+}
+
+.table-design {
+  thead tr td {
+    border: 0px;
+  }
+
+  thead tr th {
+    border: 0px;
+  }
+
+  thead tr th:nth-child(2) {
+    width: 200px;
+  }
+
+  tbody tr td {
+    border: 0px;
+  }
+
+  tbody tr th {
+    border: 0px;
+  }
+
+  tbody tr th:nth-child(2) {
+    width: 200px;
+  }
+
+  tbody tr:nth-child(odd) {
+    background: #fafbfd;
+  }
+
+  tbody tr:nth-child(even) {
+    background: white;
+  }
+}
+
+.MuiPaper-root {
+  background-color: "#203E7A";
+}
+
+.custom-select {
+  box-sizing: border-box;
+  height: 32px;
+  border: 1px solid #e4e4e4;
+  border-radius: 4px;
+  margin-right: 15px;
+  width: 158px;
+  padding: 5px 10px;
+
+  option {
+    ////font-family: "Lato";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #767c87;
+  }
+}
+
+.custom-input {
+  box-sizing: border-box;
+  height: 32px;
+  border: 1px solid #e4e4e4;
+  border-radius: 4px;
+  margin-right: 15px;
+  width: 158px;
+  max-width: 100%;
+  outline: none;
+}
+
+.MuiBox-root.css-vrgd7d {
+  // height: auto;
+}
+
+//react toastify
+
+.notification-primary {
+  background: #1c96f2 !important;
+  color: #ffffff !important;
+  .notification-progress-primary {
+    background: #ffffff !important;
+  }
+  .Toastify__close-button--light {
+    color: #ffffff;
+    opacity: 1;
+  }
+}
